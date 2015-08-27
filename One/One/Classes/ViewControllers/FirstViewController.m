@@ -8,7 +8,7 @@
 //
 
 
-#define kUrl @"http://onewp.sinaapp.com/api/2015-08-24.json"
+#define kUrl @"http://onewp.sinaapp.com/api/2015-08-23.json"
 
 #import "FirstViewController.h"
 #import "HomeView.h"
@@ -31,7 +31,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"首页";
 
     
     self.homeView = [[HomeView alloc]initWithFrame:self.view.bounds];

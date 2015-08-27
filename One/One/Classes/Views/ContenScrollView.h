@@ -10,7 +10,7 @@
 
 @interface ContenScrollView : UIScrollView
 
-@property(nonatomic,strong)UILabel *strContentLabel;//内容
+@property(nonatomic,strong)UITableView *strContent;//内容
 
 @property(nonatomic,strong)UILabel *strContTitleLabel;//题目
 

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C27386E81B8C09E60046084F /* ContenScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C27386E71B8C09E60046084F /* ContenScrollView.m */; };
 		C27386EB1B8C87F30046084F /* questionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C27386EA1B8C87F30046084F /* questionModel.m */; };
 		C27386F11B8C94720046084F /* QuestionScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C27386F01B8C94720046084F /* QuestionScrollView.m */; };
 		C2807EDE1B8AF98100733FF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2807ED11B8AF98100733FF2 /* AppDelegate.m */; };
@@ -74,6 +73,7 @@
 		C2807FA81B8B381700733FF2 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2807F981B8B381700733FF2 /* UIView+WebCacheOperation.m */; };
 		C2807FAF1B8B3B7900733FF2 /* NetWorkManger.m in Sources */ = {isa = PBXBuildFile; fileRef = C2807FAE1B8B3B7900733FF2 /* NetWorkManger.m */; };
 		C2807FB31B8B40DE00733FF2 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2807FB21B8B40DE00733FF2 /* HomeView.m */; };
+		C28D80C71B8EC1810085CECD /* ContenScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D80C61B8EC1810085CECD /* ContenScrollView.m */; };
 		C2CE956A1B84732C00092DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CE95691B84732C00092DED /* main.m */; };
 		C2CE95731B84732C00092DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CE95711B84732C00092DED /* Main.storyboard */; };
 		C2CE95781B84732C00092DED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2CE95761B84732C00092DED /* LaunchScreen.xib */; };
@@ -92,7 +92,6 @@
 
 /* Begin PBXFileReference section */
 		C27386E61B8C09E60046084F /* ContenScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContenScrollView.h; sourceTree = "<group>"; };
-		C27386E71B8C09E60046084F /* ContenScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContenScrollView.m; sourceTree = "<group>"; };
 		C27386E91B8C87F30046084F /* questionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = questionModel.h; sourceTree = "<group>"; };
 		C27386EA1B8C87F30046084F /* questionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = questionModel.m; sourceTree = "<group>"; };
 		C27386EF1B8C94720046084F /* QuestionScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionScrollView.h; sourceTree = "<group>"; };
@@ -227,6 +226,7 @@
 		C2807FAE1B8B3B7900733FF2 /* NetWorkManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManger.m; sourceTree = "<group>"; };
 		C2807FB11B8B40DE00733FF2 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
 		C2807FB21B8B40DE00733FF2 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		C28D80C61B8EC1810085CECD /* ContenScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContenScrollView.m; path = ../../../../../../../.Trash/ContenScrollView.m; sourceTree = "<group>"; };
 		C2CE95641B84732C00092DED /* One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = One.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CE95681B84732C00092DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2CE95691B84732C00092DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -341,7 +341,7 @@
 				C2807FB11B8B40DE00733FF2 /* HomeView.h */,
 				C2807FB21B8B40DE00733FF2 /* HomeView.m */,
 				C27386E61B8C09E60046084F /* ContenScrollView.h */,
-				C27386E71B8C09E60046084F /* ContenScrollView.m */,
+				C28D80C61B8EC1810085CECD /* ContenScrollView.m */,
 				C27386EF1B8C94720046084F /* QuestionScrollView.h */,
 				C27386F01B8C94720046084F /* QuestionScrollView.m */,
 			);
@@ -754,7 +754,6 @@
 				C2807F991B8B381700733FF2 /* MKAnnotationView+WebCache.m in Sources */,
 				C2807F6C1B8B366D00733FF2 /* AFURLRequestSerialization.m in Sources */,
 				C2CE956A1B84732C00092DED /* main.m in Sources */,
-				C27386E81B8C09E60046084F /* ContenScrollView.m in Sources */,
 				C2807F751B8B366D00733FF2 /* UIRefreshControl+AFNetworking.m in Sources */,
 				C2807FA31B8B381700733FF2 /* UIImage+GIF.m in Sources */,
 				C2807F2F1B8B366200733FF2 /* MJRefreshAutoGifFooter.m in Sources */,
@@ -773,6 +772,7 @@
 				C2807FB31B8B40DE00733FF2 /* HomeView.m in Sources */,
 				C2807F661B8B366D00733FF2 /* AFHTTPRequestOperationManager.m in Sources */,
 				C2807F691B8B366D00733FF2 /* AFNetworkReachabilityManager.m in Sources */,
+				C28D80C71B8EC1810085CECD /* ContenScrollView.m in Sources */,
 				C2807F371B8B366200733FF2 /* MJRefreshStateHeader.m in Sources */,
 				C2807F341B8B366200733FF2 /* MJRefreshBackStateFooter.m in Sources */,
 				C2807F3C1B8B366200733FF2 /* UIView+MJExtension.m in Sources */,
